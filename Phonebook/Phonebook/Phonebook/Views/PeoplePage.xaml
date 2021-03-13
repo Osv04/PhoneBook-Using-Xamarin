@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Phonebook.Views.PeoplePage"
+             Title="Contacts"
+             x:Name="MyContactList">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Add" Priority="1" Command="{Binding AddCommand}"/>
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView x:Name="ContactList" ItemsSource="{Binding ContactsList}" SelectedItem="{Binding Selected, Mode=TwoWay}" Margin="10,0,10,0">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.ContextActions>
+                                <MenuItem Text="Edit"
+                                    Command="{Binding Source={x:Reference MyContactList}, Path=BindingContext.EditCommand}"
+                                    CommandParameter="{Binding .}"
+                                    IsDestructive="True"/>
+                                <MenuItem Text="Delete"
+                                    Command="{Binding Source={x:Reference MyContactList}, Path=BindingContext.DeleteCommand}"
+                                    CommandParameter="{Binding .}"
+                                    IsDestructive="True"/>
+                            </ViewCell.ContextActions>
+                            
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Grid Grid.Column="1">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <StackLayout Orientation="Horizontal" Grid.Column="0" Grid.Row="0">
+                                        <Label Text="{Binding Name}" />
+                                        <Label Text="{Binding Last}" />
+                                    </StackLayout>
+                                    <Label Text="{Binding Phone}" Grid.Column="0" Grid.Row="1"/>
+                                </Grid>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,16 @@
+C:\Users\Irayma Salazar\source\repos\Phonebook\Phonebook\Phonebook\obj\Debug\netstandard2.0\Phonebook.csprojAssemblyReference.cache
+C:\Users\Irayma Salazar\source\repos\Phonebook\Phonebook\Phonebook\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Irayma Salazar\source\repos\Phonebook\Phonebook\Phonebook\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Irayma Salazar\source\repos\Phonebook\Phonebook\Phonebook\obj\Debug\netstandard2.0\Views\AddPage.xaml.g.cs
+C:\Users\Irayma Salazar\source\repos\Phonebook\Phonebook\Phonebook\obj\Debug\netstandard2.0\Views\PeoplePage.xaml.g.cs
+C:\Users\Irayma Salazar\source\repos\Phonebook\Phonebook\Phonebook\obj\Debug\netstandard2.0\Phonebook.AssemblyInfoInputs.cache
+C:\Users\Irayma Salazar\source\repos\Phonebook\Phonebook\Phonebook\obj\Debug\netstandard2.0\Phonebook.AssemblyInfo.cs
+C:\Users\Irayma Salazar\source\repos\Phonebook\Phonebook\Phonebook\obj\Debug\netstandard2.0\Phonebook.csproj.CoreCompileInputs.cache
+C:\Users\Irayma Salazar\source\repos\Phonebook\Phonebook\Phonebook\bin\Debug\netstandard2.0\Phonebook.deps.json
+C:\Users\Irayma Salazar\source\repos\Phonebook\Phonebook\Phonebook\bin\Debug\netstandard2.0\Phonebook.dll
+C:\Users\Irayma Salazar\source\repos\Phonebook\Phonebook\Phonebook\bin\Debug\netstandard2.0\ref\Phonebook.dll
+C:\Users\Irayma Salazar\source\repos\Phonebook\Phonebook\Phonebook\bin\Debug\netstandard2.0\Phonebook.pdb
+C:\Users\Irayma Salazar\source\repos\Phonebook\Phonebook\Phonebook\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Irayma Salazar\source\repos\Phonebook\Phonebook\Phonebook\obj\Debug\netstandard2.0\Phonebook.dll
+C:\Users\Irayma Salazar\source\repos\Phonebook\Phonebook\Phonebook\obj\Debug\netstandard2.0\ref\Phonebook.dll
+C:\Users\Irayma Salazar\source\repos\Phonebook\Phonebook\Phonebook\obj\Debug\netstandard2.0\Phonebook.pdb

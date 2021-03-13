@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Phonebook.Views.AddPage">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Save" Priority="1" Command="{Binding AddCommand}"/>
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="FrameStyle" TargetType="Frame">
+                <Setter Property="CornerRadius" Value="100"/>
+                <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+                <Setter Property="VerticalOptions" Value="FillAndExpand"/>
+                <Setter Property="Padding" Value="10"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <ScrollView>
+            <Grid Grid.Row="2" Margin="10,0,10,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Frame Grid.Row="0" BorderColor="Black"
+                       Style="{StaticResource FrameStyle}">
+                    <Entry x:Name="Name"
+                           Placeholder="Name" Text="{Binding NewContact.Name}"/>
+                </Frame>
+                <Frame Grid.Row="1" BorderColor="Black"
+                       Style="{StaticResource FrameStyle}">
+                    <Entry x:Name="Number" 
+                           Placeholder="Lastname" Text="{Binding NewContact.Number}"/>
+                </Frame>
+                
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
