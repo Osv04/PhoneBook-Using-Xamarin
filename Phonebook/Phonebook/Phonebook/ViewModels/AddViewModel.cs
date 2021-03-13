@@ -12,6 +12,8 @@ namespace Phonebook.ViewModels
 	{
 		public ICommand ScanCommand { get; set; }
 		public ICommand AddCommand { get; set; }
+		public string PersonName { get; set; }
+		public string PersonNumber { get; set; }
 
 		People _addContact;
 		public People NewContact
@@ -34,8 +36,8 @@ namespace Phonebook.ViewModels
 			{
 				contactsList.Add(new People
 				{
-					Name = NewContact.Name,
-					Number = NewContact.Number
+					Name = PersonName,
+					Number = PersonNumber
 				});
 				await App.Current.MainPage.Navigation.PopAsync();
 			});
@@ -43,7 +45,8 @@ namespace Phonebook.ViewModels
 
 		public AddViewModel(ObservableCollection<People> people, People _selected)
 		{
-			NewContact = _selected;
+			PersonName = _selected.Name;
+			PersonNumber = _selected.Number;
 			AddCommand = new Command(async () => {
 				people.Add(_selected);
 				await App.Current.MainPage.Navigation.PopAsync();

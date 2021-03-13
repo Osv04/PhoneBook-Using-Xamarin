@@ -981,24 +981,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Irayma Salazar\\.nuget\\packages\\": {},
+    "C:\\Users\\oscar\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Irayma Salazar\\source\\repos\\Phonebook\\Phonebook\\Phonebook.iOS\\Phonebook.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\oscar\\Downloads\\Phonebook\\Phonebook\\Phonebook\\Phonebook.iOS\\Phonebook.iOS.csproj",
       "projectName": "Phonebook.iOS",
-      "projectPath": "C:\\Users\\Irayma Salazar\\source\\repos\\Phonebook\\Phonebook\\Phonebook.iOS\\Phonebook.iOS.csproj",
-      "packagesPath": "C:\\Users\\Irayma Salazar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Irayma Salazar\\source\\repos\\Phonebook\\Phonebook\\Phonebook.iOS\\obj\\",
+      "projectPath": "C:\\Users\\oscar\\Downloads\\Phonebook\\Phonebook\\Phonebook\\Phonebook.iOS\\Phonebook.iOS.csproj",
+      "packagesPath": "C:\\Users\\oscar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\oscar\\Downloads\\Phonebook\\Phonebook\\Phonebook\\Phonebook.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Irayma Salazar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\oscar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1012,8 +1012,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Irayma Salazar\\source\\repos\\Phonebook\\Phonebook\\Phonebook\\Phonebook.csproj": {
-              "projectPath": "C:\\Users\\Irayma Salazar\\source\\repos\\Phonebook\\Phonebook\\Phonebook\\Phonebook.csproj"
+            "C:\\Users\\oscar\\Downloads\\Phonebook\\Phonebook\\Phonebook\\Phonebook\\Phonebook.csproj": {
+              "projectPath": "C:\\Users\\oscar\\Downloads\\Phonebook\\Phonebook\\Phonebook\\Phonebook\\Phonebook.csproj"
             }
           }
         }
